@@ -1,0 +1,50 @@
+{
+    "games":{
+        "0":{
+            "match":{
+                "game":"Call of dutty",
+                "date":{
+                    "day":1,
+                    "month":1,
+                    "year":2021
+                },
+                "players_left":2
+            }
+        },
+        "1":{
+            "match":{
+                "game":"League of legends",
+                "date":{
+                    "day":3,
+                    "month":1,
+                    "year":2021
+                },
+                "players_left":1
+            }
+        },
+        "2":{
+            "match":{
+                "game":"Rocket league",
+                "date":{
+                    "day":1,
+                    "month":1,
+                    "year":2021
+                },
+                "players_left":3
+            }
+        },
+        "3":{
+            "match":{
+                "game":"Fifa 21",
+                "date":{
+                    "day":5,
+                    "month":2,
+                    "year":2021
+                },
+                "players_left":1
+            }
+        }
+    },
+    "name":"Games to join"
+    
+}

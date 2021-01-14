@@ -1,0 +1,29 @@
+{
+    "types":{
+        "es":{
+            "Img":"https://external-preview.redd.it/sgupg2QyvwFm7eLaH0isYTSx1IAYT2cnG9EG2qaK7dc.png?auto=webp&s=c2fe73665a3b109d9a040fb4f70fcba4e2875149",
+            "Type":"es",
+            "Home":"Inicio",
+            "Search":"Buscar",
+            "Add":"Añadir",
+            "Profile":"Perfil"
+        },
+        "va":{
+            "Img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Flag_of_the_Valencian_Community_%282x3%29.svg/1200px-Flag_of_the_Valencian_Community_%282x3%29.svg.png",
+            "Type":"va",
+            "Home":"Inici",
+            "Search":"Buscar",
+            "Add":"Afegir",
+            "Profile":"Perfil"
+        },
+        "en":{
+            "Img":"https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png",
+            "Type":"en",
+            "Home":"Home",
+            "Search":"Search",
+            "Add":"Add",
+            "Profile":"Profile"
+        }
+    }
+    
+}

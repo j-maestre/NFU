@@ -1,26 +1,29 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab1.css';
+import SearchContainer from '../components/SearchContainer';
+import './Search.css';
+import {useTranslation} from 'react-i18next';
 
-const Tab1: React.FC = () => {
+const Search: React.FC = () => {
+  const {t, i18n } = useTranslation();
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+        <IonTitle>{t("Search")}</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
+        
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
+            <IonTitle size="large">Search</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        <SearchContainer name="" />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Tab1;
+export default Search;
